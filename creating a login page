@@ -1,0 +1,38 @@
+
+<html>
+    <head>
+        <style>
+        body {
+        background-color: rgb(84, 161, 174);
+        }
+        h1 {
+        color: white;
+        text-align: center;
+        }
+        p{
+            font-family: verdana;
+            font-size: 20px;
+            color: rgb(255, 0, 157);
+        }
+     </style>
+        </head>
+        <body>
+
+            <h1>Students Portal</h1>
+
+           <center> <form>
+            <div class="container">
+                <label>User name:</label>
+                <input placeholder="Enter your username", input type="text" name="uname" required>
+               <br><br>
+                <label>Password:</label>
+                <input placeholder="Enter your password", input type="password" name="psw" required>
+               <br><br>
+                </form></center><center><input type="checkbox" checked="checked" name="remember"> Remember me
+            </label></center> <br><br>
+              <center>  <button type="submit">Login</button> </center>
+              <label>
+              </div>
+            </form>
+        <body>
+<html>
