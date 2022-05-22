@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: rgb(190, 190, 227);
+            }
+           h1 {
+               text-align: center;
+               color: #742828;
+           }
+          
+           ::placeholder {
+            color: gray;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Students and Grades</h1>
+<br><br>
+<center><div class="topnav">
+    <label>Search among the students: </label><input type="text" placeholder="Student's Name"></center><br>
+    <center><p>Please choose your action:</p></center>
+<form>
+  <center><input type="radio" id="grade" name="action" value="grade">
+  <label for="grade">See the grade</label><br>
+  <input type="radio" id="Edit" name="action" value="Edit">
+  </inharit></inherit><label for="Edit">Edit</label><br>
+  <input type="radio" id="Delete" name="action" value="Delete">
+  <label for="Delete">Delete</label></center><br>
+  <center><button type="button">Go</button></center>
+</form>    <br><br>
+<center><label>New Student? </label><input type="text" placeholder="Student's Name">
+    <input type="number" placeholder="Student's Grade"></center> <br>
+    <center><button type="button">Add</button></center>
+ 
+    </body>
+</html>
